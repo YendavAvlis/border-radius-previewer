@@ -11,12 +11,15 @@ body {
 }
 
 #container {
-    width: 100%;
-    height: 100vw;
+    max-width: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 #square-container {
@@ -38,21 +41,46 @@ input[type='range']::-webkit-slider-thumb {
     appearance: none;
     width: 1.35rem;
     height: 1.35rem;
-    background: #003566;
+    background: #001d3d;
 }
 
 #square {
     display: block;
     padding: 5em;
-    margin: 1em 0;
+    width: 1rem;
+    margin: 1.5em auto;
     background-color: #ffc300;
 }
 
 #copy-btn {
-    padding: .8rem 2.2rem;
+    padding: .8rem 1rem;
     color: #001d3d;
     font-weight: 600;
     font-size: 1.2em;
     border-radius: .25rem;
     border: none;
+}
+
+.radius-values {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #003566;
+    margin: .5em auto;
+    border-radius: .5em;
+    padding-bottom: 1em;
+}
+
+.radius-block {
+    padding: .15em;
+}
+
+.radius-block > label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0 .5em;
+
 }
