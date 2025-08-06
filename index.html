@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Border-Radius Previwer</title>
+    <title>Border-Radius Previewer</title>
 </head>
 <body>
     <main id="container">
@@ -13,25 +13,26 @@
             <div class="radius-values">
                 <div class="radius-block">
                     <label for="radiusValueTL">TL</label>
-                    <input type="range" name="radiusValueTL" id="radius-value-tl" min="0" max="100">
+                    <input type="range" name="radiusValueTL" id="radius-value-tl" min="0" max="100" value="0">
                 </div>
                 <div class="radius-block">
                     <label for="radiusValueTR">TR</label>
-                    <input type="range" name="radiusValueTR" id="radius-value-tr" min="0" max="100">
+                    <input type="range" name="radiusValueTR" id="radius-value-tr" min="0" max="100" value="0">
                 </div>
                 <div class="radius-block">
                     <label for="radiusValueBL">BL</label>
-                    <input type="range" name="radiusValueBL" id="radius-value-bl" min="0" max="100">
+                    <input type="range" name="radiusValueBL" id="radius-value-bl" min="0" max="100" value="0">
                 </div>
                 <div class="radius-block">
                     <label for="radiusValueBL">BL</label>
-                    <input type="range" name="radiusValueBR" id="radius-value-br" min="0" max="100">
+                    <input type="range" name="radiusValueBR" id="radius-value-br" min="0" max="100" value="0">
                 </div>
-
-
 
             </div>
-            <input type="range" name="radiusValue" id="radius-value" min="0" max="100">
+            <div class="radius-values-all">
+                <label for="radiusValueBL">ALL CORNERS</label>
+                <input type="range" name="radiusValue" id="radius-value" min="0" max="100" value="0">
+            </div>
             <span id="square"></span>
             <button id="copy-btn">Copy Values</button>
         </div>

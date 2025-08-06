@@ -47,7 +47,7 @@ input[type='range']::-webkit-slider-thumb {
 #square {
     display: block;
     padding: 5em;
-    width: 1rem;
+    width: 100%;
     margin: 1.5em auto;
     background-color: #ffc300;
 }
@@ -83,4 +83,18 @@ input[type='range']::-webkit-slider-thumb {
     font-weight: 500;
     padding: 0 .5em;
 
+}
+
+.radius-values-all {
+
+    background-color: #003566;
+    margin: .5em auto;
+    border-radius: .5em;
+    padding-bottom: 1em;
+}
+
+.radius-values-all > label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0 .5em;
 }
